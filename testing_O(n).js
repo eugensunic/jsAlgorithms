@@ -704,7 +704,7 @@
               counter += findArray(array[i], item, counter);
           }
       }
-      return counter; //pa daje jedan zbog ovoga debilu!!!! uvijek kad countas uvijek tak countaj!!
+      return counter; 
   }
   function numOccurencesRecursive(arr, val) {
   if(!arr.length) return 0;
