@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="Vinska ponuda obuhvaća 99 hrvatskih i svjetskih vina, specijalnih vina, pjenušaca, šampanjaca, i vinskih destilata.
+   Osim vina naša ponudu čine i sjajan izbor koktela, piva, voćnih rakije, svježe cijeđenih sokova, kroasana, kolača i torti. ">
+          <meta name="keywords" content="wine bar, caffe bar, vino, kava, kolači, galerija">
+          <meta name="author" content="Wine bar Galerija">
+
+          <title>Caffe Wine bar Galerija</title>
+
+          <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+
+          <!-- <meta name="description" content="Sadržaj stranice"> -->
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+          <link rel="stylesheet" type="text/css" href="style.css" />
+          <link rel="stylesheet" type="text/css" href="popup.css" />
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+          <script>
+                    var myCenter = new google.maps.LatLng(45.737099, 16.002359);
+
+                    function initialize() {
+                              var mapProp = {
+                                        center: myCenter,
+                                        zoom: 16,
+                                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                        scrollwheel: false,
+                              };
+                              var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                              var contentString = '<div id="content">' +
+                                        '<a href="https://www.google.hr/maps/place/Caffe+%26+Wine+Bar+Galerija/@45.7372398,16.0024623,3a,75y,233.46h,88.19t/data=!3m6!1e1!3m4!1sAF1QipMyHL0ELzaguP8tg53zBMWXf-z2EoFpg7k1u-9E!2e10!7i11964!8i5982!4m12!1m6!3m5!1s0x47667f794edae271:0x90ca16ba9950398d!2sCaffe+%26+Wine+Bar+Galerija!8m2!3d45.737348!4d16.002737!3m4!1s0x47667f794edae271:0x90ca16ba9950398d!8m2!3d45.737348!4d16.002737">3D Virtualna šetnja</a>' +
+                                        '</div>';
+                              var infowindow = new google.maps.InfoWindow({
+                                        content: contentString
+                              });
+
+
+                              var marker = new google.maps.Marker({
+                                        position: myCenter,
+                                        map: map,
+                                        animation: google.maps.Animation.BOUNCE
+                              });
+
+                              marker.addListener('click', function() {
+                                        infowindow.open(map, marker);
+                              });
+                              infowindow.open(map, marker);
+
+                              marker.setMap(map);
+                    }
+
+                    google.maps.event.addDomListener(window, 'load', initialize);
+          </script>
+
+</head>
+
+
+<body data-spy="scroll" data-target="#my-navbar">
+          <img src="https://netgentest.mautic.com/mtracking.gif" />
+          <!-- Navbar -->
+
+          <nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
+                    <div class="container">
+                              <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+                                        <a href=""><img src="logo_small.jpg" class="img-responsive" alt="logo caffe wine bar Galerija" id="logo"></a>
+                              </div>
+                              <!-- Navbar Header -->
+
+                              <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                                  <li><a class="clickify1" href="#about">O NAMA</a>
+                                                            <li><a class="clickify" href="#wineCard">VINA</a>
+                                                                      <li><a class="clickify" href="#food">SLASTICE</a>
+                                                                                <li><a class="clickify" href="#bestOffer">IZDVOJENA PONUDA</a>
+                                                                                          <li><a class="clickify" href="#gallery">GALERIJA</a>
+                                                                                                    <li class="clickify" style="margin-right:50px;"><a href="#contact">KONTAKT</a>
+
+                                        </ul>
+
+                              </div>
+                              <img class="positionfacebook" src="logomain.png" class="img-responsive" alt="facebook logo">
+                    </div>
+                    <!-- End Container -->
+          </nav>
+          <div id="background">
+                    <div class="col-sm-6 custom_border" style="padding:0px!important;margin-top:50px;">
+                              <img src="newpic/Nutella family day_85.JPG" id="first_img" class="img-responsive" alt="kava_1">
+                    </div>
+                    <div id="druga_slika" class="col-sm-6 resize_it" style="padding:0px!important;border-right:1px solid #544f4f;">
+                              <img src="img/pluto.jpg" id="second_img" class="img-responsive" alt="cep">
+                    </div>
+          </div>
+          <!-- End Jumbotron -->
+          <p id="main_heading1">Caffee</p>
+          <p id="main_heading2">Wine</p>
+          <!-- jumbotron -->
+
+          <!-- AboutUs -->
+          <div class="container" id="about">
+                    <section>
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+                              <div class="row">
+                                        <div class="col-sm-9">
+                                                  <h2>O nama</h2>
+                                                  <p>Caffe Wine bar Galerija započeo je s radom 2004. godine u zagrebačkom naselju Odra. Jedan je od prvih specijaliziranih barova takve vrste u Zagrebu.</p>
+
+                                                  <p>Caffe Wine bar Galerija plijeni toplinom prostora stvarajući ugodu svakom gostu. Vaš dolazak primijetiti će ljubazno osoblje, koje će vam pomoći odabrati nešto iz naše bogate ponude. </p>
+
+                                                  <p>Vinska ponuda koncipirana je tako da zadovolji vaše potrebe za uživanjem u čaši vrhunskog vina. Ponuda obuhvaća 99 hrvatskih i svjetskih vina, specijalnih vina, pjenušaca, šampanjaca i vinskih destilata.
+                                                            Vinsku kartu i cjelukupnu ponudu Caffe Wine bara Galerija osmislio je vlasnik, jedan od vodećih hrvatskih sommeliera Zvonimir Koprivnjak.</p>
+
+                                                  <p>Osim vina našu ponudu čine i sjajan izbor koktela, piva, voćnih rakija, svježe cijeđenih sokova, kroasana, kolača i torti. Prepoznatljivi smo i po velikom izboru kava i toplih čokolada spravljenih po vlastitoj
+                                                            recepturi.</p>
+
+                                                  <p>Naš moto je jasan, odnos prema gostu iskren zato nas gosti posjećuju iz svih dijelova Zagreba i okolice.</p>
+                                        </div>
+                                        <div class="col-sm-3">
+                                                  <img src="img/glass_wine.png" class="img-responsive clanak" alt="glass of wine">
+                                        </div>
+                              </div>
+                              <!-- End Row -->
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+                    </section>
+          </div>
+          <!-- End AboutUs -->
+
+          <!-- jumbotron -->
+          <div>
+                    <!-- <img src="Galerija/Champagne2.jpg" class="img-responsive" alt="Text of the image"> -->
+
+                    <section>
+                              <div class="carousel slide mydiv" data-ride="carousel">
+
+                                        <!-- SLIKE VINA -->
+                                        <div id="tryit" class="carousel-inner mydiv">
+                                                  <div class="item active">
+                                                            <img src="newpic/Nutella family day.JPG" class="entire_page" alt="champagne" style="opacity:0.9">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_6.JPG" class="entire_page" alt="champagne" style="opacity:0.9">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_23.JPG" class="entire_page" alt="red wine">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_25.JPG" class="entire_page" alt="white wine" style="opacity:0.9">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_30.JPG" class="entire_page" alt="white wine" style="opacity:0.9">
+                                                  </div>
+                                        </div>
+                                        <!-- end Carousel inner -->
+
+                              </div>
+                              <!-- End Carousel -->
+
+                    </section>
+
+          </div>
+          <!-- End Jumbotron -->
+
+          <!-- WineCard -->
+          <div class="container" id="wineCard">
+                    <section>
+                              <div class="page-header" id="faq">
+                              </div>
+                              <!-- End Page Header -->
+                              <div class="row">
+                                        <div class="col-sm-6">
+                                                  <h2>Vinska karta</h2>
+                                                  <p>Vinska karta Caffe–Wine bara Galerija kincipirana je tako da zadovolji Vaše potrebe za uživanjem u čaši vrhunskih vina. Vinska karta sadrži 99 etiketa iz domaćih i svjetskih vinarija. Ponuda vina ažurira
+                                                            se tokom godine vodeći računa o godišnjem dobu. Podijeljena je na bijela vina, ružičasta vina, crvena vina, šampanjce i pjenušce.</p>
+                                        </div>
+                                        <div class="col-sm-6">
+
+                                                  <div class="row">
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img class="img-responsive" src="newpic/Nutella family day_40.JPG" style="border-radius:1px;border-top-right-radius:0px;border-bottom-right-radius:0px;padding-bottom:1px;padding-right:1px" />
+                                                            </div>
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img class="img-responsive" src="newpic/Nutella family day_44.JPG" style="border-radius:1px;border-top-left-radius:0px;border-bottom-left-radius:0px;padding-bottom:1px;padding-right:1px" />
+                                                            </div>
+                                                  </div>
+                                                  <div class="row">
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img id="vine3_img" class="img-responsive" src="newpic/Nutella family day_54.JPG" style="border-radius:1px;border-top-right-radius:0px;border-bottom-right-radius:0px;padding-bottom:2px;padding-right:1px" />
+                                                            </div>
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img id="vine4_img" class="img-responsive" src="newpic/Nutella family day_39.JPG" style="border-radius:1px;border-top-left-radius:0px;border-bottom-left-radius:0px;padding-bottom:1px;" />
+                                                            </div>
+                                                  </div>
+
+
+                                        </div>
+                              </div>
+                              <br />
+
+                              <div class="row">
+
+                                        <div class="panel-group" id="accordion">
+                                                  <div class="panel panel-default">
+                                                            <div id="first_panel" class="panel-heading">
+                                                                      <h4 class="panel-title">
+          <a id="something1" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+        </h4>
+                                                            </div>
+                                                            <div id="collapse1" class="panel-collapse collapse">
+                                                                      <div id="panelbody1" class="panel-body dodatna">
+
+
+
+
+                                                                                <div id="maybe" class="insideit">
+                                                                                          <div id="popup1" class="overlay">
+                                                                                                    <div class="popup">
+                                                                                                              <p></p>
+                                                                                                              <p></p>
+                                                                                                              <a id="close1" class="close" href="#">&times;</a>
+                                                                                                              <div class="content style-1">
+                                                                                                                        <table class="tablica karta">
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA MITROVAC  Krauthaker 2013. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko suho vino alk. 13,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2012. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">105,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno polusuho vino alk. 13,00% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA TURKOVIĆ  PPK Kutjevo 2012. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko polusuho vino alk. 13,7% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2013. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">135,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko slatko vino alk. 12,8% vol. Kasna berba</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>KRALJEVINA  Puhelek-Purek 2014. Vinogorje Zelina</strong></td>
+                                                                                                                                            <td class="cijena">90,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno suho vino alk. 11,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>ŠKRLET  Trdenić 2014. Vinogorje Moslavina</strong></td>
+                                                                                                                                            <td class="cijena">75,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                        </table>
+                                                                                                              </div>
+                                                                                                    </div>
+                                                                                          </div>
+                                                                                </div>
+
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="panel panel-default">
+                                                            <div id="second_panel" class="panel-heading">
+                                                                      <h4 class="panel-title">
+          <a id="something2" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+        </h4>
+                                                            </div>
+                                                            <div id="collapse2" class="panel-collapse collapse">
+                                                                      <div class="panel-body dodatna">
+
+
+                                                                                <div class="insideit">
+                                                                                          <div id="popup2" class="overlay">
+                                                                                                    <div class="popup">
+                                                                                                              <p></p>
+                                                                                                              <p></p>
+                                                                                                              <a id="close2" class="close" href="#">&times;</a>
+                                                                                                              <div class="content style-1">
+                                                                                                                        <table class="tablica karta">
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA MITROVAC  Krauthaker 2013. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko suho vino alk. 13,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2012. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">105,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno polusuho vino alk. 13,00% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA TURKOVIĆ  PPK Kutjevo 2012. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko polusuho vino alk. 13,7% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2013. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">135,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko slatko vino alk. 12,8% vol. Kasna berba</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>KRALJEVINA  Puhelek-Purek 2014. Vinogorje Zelina</strong></td>
+                                                                                                                                            <td class="cijena">90,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno suho vino alk. 11,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>ŠKRLET  Trdenić 2014. Vinogorje Moslavina</strong></td>
+                                                                                                                                            <td class="cijena">75,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                        </table>
+                                                                                                              </div>
+                                                                                                    </div>
+                                                                                          </div>
+                                                                                </div>
+
+
+
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="panel panel-default">
+                                                            <div id="second_panel" class="panel-heading">
+                                                                      <h4 class="panel-title">
+          <a id="something3" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+        </h4>
+                                                            </div>
+                                                            <div id="collapse3" class="panel-collapse collapse">
+                                                                      <div class="panel-body dodatna">
+
+
+                                                                                <div class="insideit">
+                                                                                          <div id="popup3" class="overlay">
+                                                                                                    <div class="popup">
+                                                                                                              <p></p>
+                                                                                                              <p></p>
+                                                                                                              <a id="close3" class="close" href="#">&times;</a>
+                                                                                                              <div class="content style-1">
+                                                                                                                        <table class="tablica karta">
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA MITROVAC  Krauthaker 2013. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko suho vino alk. 13,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2012. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">105,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno polusuho vino alk. 13,00% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA TURKOVIĆ  PPK Kutjevo 2012. Vinogorje Kutjevo</strong></td>
+                                                                                                                                            <td class="cijena">120,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko polusuho vino alk. 13,7% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>GRAŠEVINA  Gerstmajer 2013. Vinogorje Baranja</strong></td>
+                                                                                                                                            <td class="cijena">135,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Vrhunsko slatko vino alk. 12,8% vol. Kasna berba</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>KRALJEVINA  Puhelek-Purek 2014. Vinogorje Zelina</strong></td>
+                                                                                                                                            <td class="cijena">90,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr class="table_for_border">
+                                                                                                                                            <td>Kvalitetno suho vino alk. 11,5% vol.</td>
+                                                                                                                                            <td class="cijena"></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td>&nbsp</td>
+                                                                                                                                            <td></td>
+                                                                                                                                  </tr>
+                                                                                                                                  <tr>
+                                                                                                                                            <td><strong>ŠKRLET  Trdenić 2014. Vinogorje Moslavina</strong></td>
+                                                                                                                                            <td class="cijena">75,00 kn</td>
+                                                                                                                                  </tr>
+                                                                                                                        </table>
+                                                                                                              </div>
+                                                                                                    </div>
+                                                                                          </div>
+                                                                                </div>
+
+
+
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+          </div>
+
+
+          <div class="page-header">
+          </div>
+          <!-- End Page Header -->
+          </section>
+          </div>
+          <!-- End WineCard -->
+
+          <!-- jumbotron -->
+          <!-- jumbotron -->
+          <div>
+                    <section>
+                              <div class="carousel slide" data-ride="carousel">
+
+                                        <div class="carousel-inner">
+                                                  <div class="item active">
+                                                            <img src="newpic/Nutella family day_53.JPG" alt="cheesecake">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_40.JPG" alt="cake">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_54.JPG" alt="cake">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/novaslika_samp.jpg" alt="strukle">
+                                                  </div>
+                                        </div>
+                                        <!-- end Carousel inner -->
+
+                              </div>
+                              <!-- End Carousel -->
+
+                    </section>
+
+          </div>
+          <!-- End Jumbotron -->
+
+          <!-- Food -->
+          <div class="container" id="food">
+                    <section>
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+
+                              <div class="row">
+                                        <div class="col-sm-6">
+                                                  <h2>Ponuda slastica</h2>
+
+
+                                                  <p>Kod nas možete probati torte i kolače napravljene bez dodanih aditiva, bojila i aroma. Kolači su proizvedeni u slastičarnici „Tri užitka“. Naše kolače možete ponijeti sa sobom u praktičnoj ambalaži. </p>
+                                                  <p>Ujutro poslužujemo svježe pečene kroasane i štrukle od sira i jabuka.
+                                                            <img id="glavni_kolac" src="img/kolac.png" class="img-responsive clanak" alt="cake">
+
+
+                                        </div>
+                                        <div class="col-sm-6">
+
+                                                  <div class="row">
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img class="img-responsive" src="newpic/Nutella family day_61.JPG" style="border-radius:1px;border-top-right-radius:0px;border-bottom-right-radius:0px;padding-bottom:1px;padding-right:1px" />
+                                                            </div>
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img class="img-responsive" src="newpic/Nutella family day_63.JPG" style="border-radius:1px;border-top-left-radius:0px;border-bottom-left-radius:0px;padding-bottom:1px;padding-right:1px" />
+                                                            </div>
+                                                  </div>
+                                                  <div class="row">
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img id="kola3_img" class="img-responsive" src="newpic/Nutella family day_67.JPG" style="border-radius:1px;border-top-right-radius:0px;border-bottom-right-radius:0px;padding-bottom:2px;padding-right:1px" />
+                                                            </div>
+                                                            <div class="col-sm-6" style="padding:0px!important;">
+                                                                      <img id="kola4_img" class="img-responsive" src="newpic/Nutella family day_69.JPG" style="border-radius:1px;border-top-left-radius:0px;border-bottom-left-radius:0px;padding-bottom:1px;" />
+                                                            </div>
+                                                  </div>
+
+
+                                        </div>
+
+
+                              </div>
+                              <!-- End Row -->
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+                    </section>
+          </div>
+          <!-- End Food -->
+
+
+          <div>
+                    <section>
+                              <div class="carousel slide" data-ride="carousel">
+
+                                        <div class="carousel-inner">
+                                                  <div class="item active">
+                                                            <img src="newpic/Nutella family day_93.JPG" alt="cheesecake">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_80.JPG" alt="cake">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/novaslika_kave.jpg" alt="cake">
+                                                  </div>
+                                        </div>
+                                        <!-- end Carousel inner -->
+
+                              </div>
+                              <!-- End Carousel -->
+
+                    </section>
+
+          </div>
+          <!-- End Jumbotron -->
+
+
+          <!-- Special offer -->
+
+          <div class="container" id="bestOffer">
+                    <section>
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+
+                              <div class="row">
+                                        <div class="col-lg-12">
+                                                  <h2>Izdvojena ponuda</h2> <br />
+                                                  <div class="col-sm-6 col-md-6">
+                                                            <div class="thumbnail">
+                                                                      <!-- <img src="img/2.jpg" alt="..."> -->
+
+                                                                      <div class="carousel slide" data-ride="carousel">
+                                                                                <div class="carousel-inner">
+                                                                                          <div class="item active">
+                                                                                                    <img src="img/2.jpg" alt="hot chocolate" style="height:auto!important">
+                                                                                          </div>
+                                                                                          <div class="item">
+                                                                                                    <img src="img/kava3.png" alt="hot chocolate" style="height:auto!important">
+                                                                                          </div>
+                                                                                </div>
+                                                                                <!-- end Carousel inner -->
+
+                                                                      </div>
+                                                                      <!-- End Carousel -->
+
+                                                                      <div class="caption">
+
+
+                                                                                <table class="tablica">
+                                                                                          <tr>
+                                                                                                    <td>
+                                                                                                              <h3 style="font-size:28px;">Tople čokolade</h3></td>
+                                                                                                    <td></td>
+                                                                                          </tr>
+
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+
+
+                                                                                </table>
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-sm-6 col-md-6">
+                                                            <div class="thumbnail">
+                                                                      <div class="carousel slide" data-ride="carousel">
+
+                                                                                <div class="carousel-inner">
+                                                                                          <div class="item active">
+                                                                                                    <img src="img/1.jpg" alt="caffe" style="height:auto!important">
+                                                                                          </div>
+                                                                                          <div class="item">
+                                                                                                    <img src="img/4a.jpg" alt="caffe" style="height:auto!important">
+                                                                                          </div>
+                                                                                </div>
+                                                                                <!-- end Carousel inner -->
+
+                                                                      </div>
+                                                                      <!-- End Carousel -->
+                                                                      <!-- <img src="img/4a.jpg" alt="..."> -->
+                                                                      <div class="caption">
+
+
+                                                                                <table class="tablica">
+                                                                                          <tr>
+                                                                                                    <td>
+                                                                                                              <h3 style="font-size:28px;">Kave</h3></td>
+                                                                                                    <td></td>
+                                                                                          </tr>
+
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                </table>
+
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                                  <div class="col-sm-6 col-md-6">
+                                                            <div class="thumbnail">
+                                                                      <!-- <img src="img/vino_casa.png" alt="..."> -->
+
+                                                                      <div class="carousel slide" data-ride="carousel">
+
+                                                                                <div class="carousel-inner">
+                                                                                          <div class="item active">
+                                                                                                    <img src="img/vina_bijela.png" alt="white wine" style="height:auto!important">
+                                                                                          </div>
+                                                                                          <div class="item">
+                                                                                                    <img src="img/vina_bijela2.png" alt="white wine" style="height:auto!important">
+                                                                                          </div>
+                                                                                </div>
+                                                                                <!-- end Carousel inner -->
+
+                                                                      </div>
+                                                                      <!-- End Carousel -->
+
+                                                                      <div class="caption">
+
+
+
+                                                                                <table class="tablica">
+                                                                                          <tr>
+                                                                                                    <td>
+                                                                                                              <h3 style="font-size:28px;">Bijela vina</h3></td>
+                                                                                                    <td>(0,1 l)</td>
+                                                                                          </tr>
+
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                </table>
+                                                                      </div>
+                                                            </div>
+
+                                                  </div>
+                                                  <div class="col-sm-6 col-md-6">
+                                                            <div class="thumbnail">
+                                                                      <!-- <img src="img/vino_casa.png" alt="..."> -->
+
+                                                                      <div class="carousel slide" data-ride="carousel">
+
+                                                                                <div class="carousel-inner">
+                                                                                          <div class="item active">
+                                                                                                    <img src="img/vina_crna2.png" alt="red wine" style="height:auto!important">
+                                                                                          </div>
+                                                                                          <div class="item">
+                                                                                                    <img src="img/vino_casa.png" alt="glass of red wine" style="height:auto!important">
+                                                                                          </div>
+                                                                                </div>
+                                                                                <!-- end Carousel inner -->
+
+                                                                      </div>
+                                                                      <!-- End Carousel -->
+
+                                                                      <div class="caption">
+
+
+                                                                                <table class="tablica">
+                                                                                          <tr>
+                                                                                                    <td>
+                                                                                                              <h3 style="font-size:28px;">Crna vina</h3></td>
+                                                                                                    <td>(0,1 l)</td>
+                                                                                          </tr>
+
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="table_for_border">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                          <tr class="">
+                                                                                                    <td><strong>Harmonie Chocolate<p>(bijela čokolada, kava, šlag)</p></strong></td>
+                                                                                                    <td class="cijena">17,00 kn</td>
+                                                                                          </tr>
+                                                                                </table>
+                                                                      </div>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+          </div>
+
+
+          <div class="container">
+                    <div class="page-header">
+                    </div>
+                    <!-- End Page Header -->
+          </div>
+          <!-- End Special offer -->
+
+
+          <!-- Gallery -->
+          <div id="gallery">
+                    <section>
+                              <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                                  <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="4"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="5"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="6"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="7"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="8"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="9"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="10"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="11"></li>
+                                                  <li data-target="#screenshot-carousel" data-slide-to="12"></li>
+
+                                        </ol>
+                                        <div class="carousel-inner">
+                                                  <div class="item active">
+                                                            <img src="newpic/Nutella family day_2.JPG" alt="Interijer Galerija">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_16.JPG" alt="Interijer Galerija">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_30.JPG" alt="Terasa Galerija">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_32.JPG" alt="Flowers">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_10.JPG" alt="Flowers">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_12.JPG" alt="Flowers">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_14.JPG" alt="Eksterijer">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_24.JPG" alt="Eksterijer">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_26.JPG" alt="Interijer">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_92.JPG" alt="Interijer">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_98.JPG" alt="Sampanjci">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_99.JPG" alt="Sampanjci">
+                                                  </div>
+                                                  <div class="item">
+                                                            <img src="newpic/Nutella family day_5.JPG" alt="Sampanjci">
+                                                  </div>
+
+
+                                        </div>
+                                        <!-- end Carousel inner -->
+                                        <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+                                        <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+                              </div>
+                              <!-- End Carousel -->
+
+                    </section>
+          </div>
+          <!-- End Gallery -->
+
+          <!-- Contact -->
+
+          <div class="container" id="contact">
+                    <section>
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+
+                              <div class="row">
+                                        <div class="col-lg-12">
+                                                  <h2>Kontakt</h2>
+                                                  <div class="col-lg-4">
+
+
+                                                            <p>
+                                                                      <strong>Wine bar Galerija</strong><br> Velika cesta 72 <br> 10020 Odra<br> winebargalerija@gmail.com
+                                                                      <br> +385 1 6231 634
+                                                            </p>
+                                                            <p></p>
+                                                            <div>
+                                                                      <p style="display:inline;">Radno vrijeme:</p>
+                                                                      <p style="display:inline;">06-24h</p>
+                                                            </div>
+
+                                                  </div>
+
+                                                  <div class="col-lg-8">
+                                                            <form action="form.php" class="form-horizontal" role="form" method="post" id="form">
+                                                                      <div class="form-group">
+                                                                                <label for="user-name" class="col-lg-2 control-label">Ime</label>
+                                                                                <div class="col-lg-10">
+                                                                                          <input type="text" class="form-control" id="user-name" name="user-name" placeholder="Unesite ime">
+                                                                                </div>
+                                                                      </div>
+                                                                      <!-- End form group -->
+                                                                      <div class="form-group">
+                                                                                <label for="user-email" class="col-lg-2 control-label">Email</label>
+                                                                                <div class="col-lg-10">
+                                                                                          <input type="text" class="form-control" id="user-email" name="email" placeholder="Unesite email">
+                                                                                </div>
+                                                                      </div>
+                                                                      <!-- End form group -->
+
+                                                                      <div class="form-group">
+                                                                                <label for="user-message" class="col-lg-2 control-label">Poruka</label>
+                                                                                <div class="col-lg-10">
+                                                                                          <textarea name="message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Unesite poruku"></textarea>
+                                                                                </div>
+                                                                      </div>
+                                                                      <!-- End form group -->
+
+                                                                      <div class="form-group">
+                                                                                <div class="col-lg-10 col-lg-offset-2">
+                                                                                          <input type="submit" name="submit" class="button btn" value="Pošalji"></input>
+                                                                                </div>
+                                                                      </div>
+                                                            </form>
+                                                  </div>
+                                        </div>
+                              </div>
+
+
+                              <div class="page-header">
+                              </div>
+                              <!-- End Page Header -->
+
+                    </section>
+
+          </div>
+          <!-- End Contact -->
+
+          <!-- Google Maps -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2784.700591992257!2d16.002359!3d45.737099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667f794edae271%3A0x90ca16ba9950398d!2sCaffe+Wine+Bar+Galerija!5e0!3m2!1shr!2shr!4v1425585922911" width="100%" height="450" frameborder="0" style="border:0"></iframe> -->
+          <div id="googleMap" style="width:100%;height:500px;"></div>
+
+          <!-- Footer -->
+          <footer>
+                    <div class="container" style="padding-top:30px;">
+                              <ul class="list-inline">
+                                        <li><a href="https://www.facebook.com/CaffeWineBarGalerija" target="new"><img src="img/facebook-logoe.png" class="img-responsive" alt="facebook logo"></a></li>
+                                        <!-- <li><a href="https://plus.google.com/" target="new"><img src="winebar_pic/googlee.png" class="img-responsive" alt="google plus"></a></li> -->
+                                        <li>
+                                                  <p>Galerija &copy; Copyright 2015 | "UGOSTITELJSKI OBRT", vl. Zvonimir Koprivnjak, Zagreb, Velika cesta 82, oznaka: 21011204286</p>
+                                        </li>
+                              </ul>
+                    </div>
+                    <!-- end Container -->
+
+          </footer>
+          <!-- End Footer -->
+
+
+          <script>
+                    var display_it = true;
+                    $(document).ready(function() {
+                              //popup
+                              $("#something1").click(function() {
+                                        setTimeout(function() {
+                                                  location.hash = "popup1"
+                                        }, 1);
+                                        $("#popup1").hide();
+                                        $("#popup1").fadeIn(200);
+                              });
+                              $("#something2").click(function() {
+                                        setTimeout(function() {
+                                                  location.hash = "popup2"
+                                        }, 1);
+                                        $("#popup2").hide();
+                                        $("#popup2").fadeIn(200);
+                              });
+                              $("#something3").click(function() {
+                                        setTimeout(function() {
+                                                  location.hash = "popup3"
+                                        }, 1);
+                                        $("#popup3").hide();
+                                        $("#popup3").fadeIn(200);
+                              });
+                              $("#something4").click(function() {
+                                        setTimeout(function() {
+                                                  location.hash = "popup4"
+                                        }, 1);
+                                        $("#popup3").hide();
+                                        $("#popup3").fadeIn(200);
+                              });
+                              $("#something5").click(function() {
+                                        setTimeout(function() {
+                                                  location.hash = "popup5"
+                                        }, 1);
+                                        $("#popup3").hide();
+                                        $("#popup3").fadeIn(200);
+                              });
+                              $("#close1").click(function() {
+                                        $("#something1").click();
+                              });
+                              $("#close2").click(function() {
+                                        $("#something2").click();
+                              });
+                              $("#close3").click(function() {
+                                        $("#something3").click();
+                              });
+                              $(".clickify1").click(function() {
+                                        $('#accordion').accordion().hide();
+
+                              })
+                              //popupend
+
+
+
+                              //carousel image rotation
+                              $('.carousel').carousel({
+                                        interval: 1000 * 3
+                              });
+                              //second image same size as first image
+                              $("#second_img").height($("#first_img").height());
+                              $("#vine4_img").height($("#vine3_img").height());
+                              $("#kola4_img").height($("#kola3_img").height());
+
+                              var a = $(window).height();
+                              $(window).on('resize', function() {
+                                        $("#second_img").height($("#first_img").height());
+                                        $("#kola4_img").height($("#kola3_img").height());
+                                        $("#vine4_img").height($("#vine3_img").height());
+
+                              });
+
+                    });
+          </script>
+
+
+
+
+
+</body>
+
+</html>
